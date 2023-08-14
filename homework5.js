@@ -9,6 +9,7 @@ function customFind(arr,func){
             return arr[i]
         }
     }
+    return -1
 }
 customFind(arrOfNums,function(element){
     return element > 10
